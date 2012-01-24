@@ -1,0 +1,19 @@
+{
+  "author": "Derrick Weis <gentooist@gmail.com> (http://derrickweis.com)",
+  "name": "dice",
+  "description": "Simple dice rolling (D&D style) using mersenne twister for fast random numbers.",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gentooist/dice.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": { "mersenne": "0.0.3" },
+  "devDependencies": { "mocha": "0.10.2", "should": "0.5.1" },
+  "main": "index"
+}
