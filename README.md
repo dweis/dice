@@ -6,8 +6,8 @@ number generation.
 
 ## Usage
 
-  var dice = require('dice');
-  var number = dice.roll('1d6+12');
+    var dice = require('dice');
+    var number = dice.roll('1d6+12'); // a number between 13 to 18
 
 ## License
 
