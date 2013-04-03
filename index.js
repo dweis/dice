@@ -1,1 +1,1 @@
-model.exports = require('./lib/dice')
+module.exports = require('./lib/dice')
